@@ -1,19 +1,20 @@
 import java.util.Scanner;
+    public class PARIAN_ACTIVITY_II{
+        public static void main(String[] args);
+            Scanner In = new Scanner (System.in);
 
-public class PARIAN_ACTIVITY_III {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        
-        System.out.print( "Enter Celcius: ");
-        int temp = scanner.nextInt();
+            System.out.print("Enter your first number: ");
+            int firstNumber = scannerInt();
+            System.out.print("Enter your second number: ");
+            int secondNumber = scanner.nextInt();
 
+            
+            int sum = firstNumber + secondNumber;
+            int difference = firstNumber - secondNumber;
+            int product = firstNumber * secondNumber;
 
-        if (temp < 100) {
-            System.out.println("Not Boiling");
-         } else {
-            System.out.println("Boiling");
-         }
-        }
+            System.out.println("Sum = " + sum);
+            System.out.println("Difference = " + difference);
+            System.out.println("Product = " + product);
     }
-    
 }
